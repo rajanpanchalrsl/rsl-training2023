@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "88515C4F-6071-4EEB-BDBB-C70909F1E366"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7B728D98-B067-4E6C-9B4F-3D5F2483152F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "Yes"
+            filePath = "IChat/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "loginButtonTapped()"
+            landmarkType = "7">
+            <Actions>
+               <BreakpointActionProxy
+                  ActionExtensionID = "Xcode.BreakpointAction.DebuggerCommand">
+                  <ActionContent
+                     consoleCommand = "expr usernameTextField.text = &quot;rajan-rsl&quot;">
+                  </ActionContent>
+               </BreakpointActionProxy>
+               <BreakpointActionProxy
+                  ActionExtensionID = "Xcode.BreakpointAction.DebuggerCommand">
+                  <ActionContent
+                     consoleCommand = "expr passwordTextField.text = &quot;rsl@Rajan23&quot;">
+                  </ActionContent>
+               </BreakpointActionProxy>
+            </Actions>
+            <Locations>
+               <Location
+                  uuid = "7B728D98-B067-4E6C-9B4F-3D5F2483152F - 111f308730525132"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IChat.ViewController.loginButtonTapped() -&gt; ()"
+                  moduleName = "IChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/team-rsl/Documents/More%20Training/rsl-training2023-rajan-panchal/IChat/IChat/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "101">
+               </Location>
+               <Location
+                  uuid = "7B728D98-B067-4E6C-9B4F-3D5F2483152F - 111f308730525132"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IChat.ViewController.loginButtonTapped() -&gt; ()"
+                  moduleName = "IChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/team-rsl/Documents/More%20Training/rsl-training2023-rajan-panchal/IChat/IChat/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "176">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "05B0B837-51CC-4125-A6B0-19F13123AB8A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "Yes"
+            filePath = "IChat/LoginVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "loginButtonTapped()"
+            landmarkType = "7">
+            <Actions>
+               <BreakpointActionProxy
+                  ActionExtensionID = "Xcode.BreakpointAction.DebuggerCommand">
+                  <ActionContent
+                     consoleCommand = "expr usernameTextField.text = &quot;rajan-rsl&quot;">
+                  </ActionContent>
+               </BreakpointActionProxy>
+               <BreakpointActionProxy
+                  ActionExtensionID = "Xcode.BreakpointAction.DebuggerCommand">
+                  <ActionContent
+                     consoleCommand = "expr passwordTextField.text = &quot;rsl@Rajan23&quot;">
+                  </ActionContent>
+               </BreakpointActionProxy>
+            </Actions>
+            <Locations>
+               <Location
+                  uuid = "05B0B837-51CC-4125-A6B0-19F13123AB8A - fdf1b6a56d7b088"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IChat.LoginVC.loginButtonTapped() -&gt; ()"
+                  moduleName = "IChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/team-rsl/Documents/More%20Training/rsl-training2023-rajan-panchal/IChat/IChat/LoginVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "101">
+               </Location>
+               <Location
+                  uuid = "05B0B837-51CC-4125-A6B0-19F13123AB8A - fdf1b6a56d7b088"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IChat.LoginVC.loginButtonTapped() -&gt; ()"
+                  moduleName = "IChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/team-rsl/Documents/More%20Training/rsl-training2023-rajan-panchal/IChat/IChat/LoginVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "176">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
