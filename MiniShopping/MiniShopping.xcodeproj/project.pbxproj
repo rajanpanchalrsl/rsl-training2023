@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A3FAA112A1B6F2B009CF6BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3FAA102A1B6F2B009CF6BA /* AppDelegate.m */; };
+		9A3FAA142A1B6F2B009CF6BA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3FAA132A1B6F2B009CF6BA /* SceneDelegate.m */; };
+		9A3FAA172A1B6F2B009CF6BA /* ProductsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3FAA162A1B6F2B009CF6BA /* ProductsViewController.m */; };
+		9A3FAA1A2A1B6F2B009CF6BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A3FAA182A1B6F2B009CF6BA /* Main.storyboard */; };
+		9A3FAA1C2A1B6F2D009CF6BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A3FAA1B2A1B6F2D009CF6BA /* Assets.xcassets */; };
+		9A3FAA1F2A1B6F2D009CF6BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A3FAA1D2A1B6F2D009CF6BA /* LaunchScreen.storyboard */; };
+		9A3FAA222A1B6F2D009CF6BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3FAA212A1B6F2D009CF6BA /* main.m */; };
+		9A3FAA2B2A1B712B009CF6BA /* ProductsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3FAA2A2A1B712B009CF6BA /* ProductsView.m */; };
+		9A3FAA302A1B7C24009CF6BA /* ProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3FAA2F2A1B7C24009CF6BA /* ProductCell.m */; };
+		9A3FAA342A1B944C009CF6BA /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3FAA332A1B944C009CF6BA /* Product.m */; };
+		9A56B3A12A1C838000E46BDD /* FetchProducts.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A56B3A02A1C838000E46BDD /* FetchProducts.m */; };
+		9A56B3AD2A1CBA5200E46BDD /* NSMutableArray+Sorting.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A56B3AC2A1CBA5200E46BDD /* NSMutableArray+Sorting.m */; };
+		9A56B3B02A1CC60A00E46BDD /* ImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A56B3AF2A1CC60A00E46BDD /* ImageDownloader.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9A3FAA0C2A1B6F2B009CF6BA /* MiniShopping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniShopping.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A3FAA0F2A1B6F2B009CF6BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9A3FAA102A1B6F2B009CF6BA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9A3FAA122A1B6F2B009CF6BA /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		9A3FAA132A1B6F2B009CF6BA /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		9A3FAA152A1B6F2B009CF6BA /* ProductsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductsViewController.h; sourceTree = "<group>"; };
+		9A3FAA162A1B6F2B009CF6BA /* ProductsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductsViewController.m; sourceTree = "<group>"; };
+		9A3FAA192A1B6F2B009CF6BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A3FAA1B2A1B6F2D009CF6BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A3FAA1E2A1B6F2D009CF6BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A3FAA202A1B6F2D009CF6BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A3FAA212A1B6F2D009CF6BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9A3FAA292A1B712B009CF6BA /* ProductsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductsView.h; sourceTree = "<group>"; };
+		9A3FAA2A2A1B712B009CF6BA /* ProductsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductsView.m; sourceTree = "<group>"; };
+		9A3FAA2E2A1B7C24009CF6BA /* ProductCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductCell.h; sourceTree = "<group>"; };
+		9A3FAA2F2A1B7C24009CF6BA /* ProductCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductCell.m; sourceTree = "<group>"; };
+		9A3FAA322A1B944C009CF6BA /* Product.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		9A3FAA332A1B944C009CF6BA /* Product.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		9A56B39F2A1C838000E46BDD /* FetchProducts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FetchProducts.h; sourceTree = "<group>"; };
+		9A56B3A02A1C838000E46BDD /* FetchProducts.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FetchProducts.m; sourceTree = "<group>"; };
+		9A56B3AB2A1CBA5200E46BDD /* NSMutableArray+Sorting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Sorting.h"; sourceTree = "<group>"; };
+		9A56B3AC2A1CBA5200E46BDD /* NSMutableArray+Sorting.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Sorting.m"; sourceTree = "<group>"; };
+		9A56B3AE2A1CC60A00E46BDD /* ImageDownloader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageDownloader.h; sourceTree = "<group>"; };
+		9A56B3AF2A1CC60A00E46BDD /* ImageDownloader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageDownloader.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A3FAA092A1B6F2B009CF6BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A3FAA032A1B6F2B009CF6BA = {
+			isa = PBXGroup;
+			children = (
+				9A3FAA0E2A1B6F2B009CF6BA /* MiniShopping */,
+				9A3FAA0D2A1B6F2B009CF6BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A3FAA0D2A1B6F2B009CF6BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A3FAA0C2A1B6F2B009CF6BA /* MiniShopping.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A3FAA0E2A1B6F2B009CF6BA /* MiniShopping */ = {
+			isa = PBXGroup;
+			children = (
+				9A56B3B12A1D013100E46BDD /* Supporting Files */,
+				9A3FAA312A1B9435009CF6BA /* Models */,
+				9A3FAA2C2A1B7130009CF6BA /* Views */,
+				9A3FAA282A1B7116009CF6BA /* Controllers */,
+				9A56B3B22A1D016700E46BDD /* Extension */,
+				9A3FAA182A1B6F2B009CF6BA /* Main.storyboard */,
+				9A3FAA1B2A1B6F2D009CF6BA /* Assets.xcassets */,
+				9A3FAA202A1B6F2D009CF6BA /* Info.plist */,
+			);
+			path = MiniShopping;
+			sourceTree = "<group>";
+		};
+		9A3FAA282A1B7116009CF6BA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9A3FAA152A1B6F2B009CF6BA /* ProductsViewController.h */,
+				9A3FAA162A1B6F2B009CF6BA /* ProductsViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9A3FAA2C2A1B7130009CF6BA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9A3FAA2D2A1B7BFB009CF6BA /* Cell */,
+				9A3FAA292A1B712B009CF6BA /* ProductsView.h */,
+				9A3FAA2A2A1B712B009CF6BA /* ProductsView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9A3FAA2D2A1B7BFB009CF6BA /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				9A3FAA2E2A1B7C24009CF6BA /* ProductCell.h */,
+				9A3FAA2F2A1B7C24009CF6BA /* ProductCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		9A3FAA312A1B9435009CF6BA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9A3FAA322A1B944C009CF6BA /* Product.h */,
+				9A3FAA332A1B944C009CF6BA /* Product.m */,
+				9A56B39F2A1C838000E46BDD /* FetchProducts.h */,
+				9A56B3A02A1C838000E46BDD /* FetchProducts.m */,
+				9A56B3AE2A1CC60A00E46BDD /* ImageDownloader.h */,
+				9A56B3AF2A1CC60A00E46BDD /* ImageDownloader.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9A56B3B12A1D013100E46BDD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A3FAA1D2A1B6F2D009CF6BA /* LaunchScreen.storyboard */,
+				9A3FAA212A1B6F2D009CF6BA /* main.m */,
+				9A3FAA0F2A1B6F2B009CF6BA /* AppDelegate.h */,
+				9A3FAA102A1B6F2B009CF6BA /* AppDelegate.m */,
+				9A3FAA122A1B6F2B009CF6BA /* SceneDelegate.h */,
+				9A3FAA132A1B6F2B009CF6BA /* SceneDelegate.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9A56B3B22A1D016700E46BDD /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9A56B3AB2A1CBA5200E46BDD /* NSMutableArray+Sorting.h */,
+				9A56B3AC2A1CBA5200E46BDD /* NSMutableArray+Sorting.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A3FAA0B2A1B6F2B009CF6BA /* MiniShopping */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A3FAA252A1B6F2D009CF6BA /* Build configuration list for PBXNativeTarget "MiniShopping" */;
+			buildPhases = (
+				9A3FAA082A1B6F2B009CF6BA /* Sources */,
+				9A3FAA092A1B6F2B009CF6BA /* Frameworks */,
+				9A3FAA0A2A1B6F2B009CF6BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiniShopping;
+			productName = MiniShopping;
+			productReference = 9A3FAA0C2A1B6F2B009CF6BA /* MiniShopping.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A3FAA042A1B6F2B009CF6BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					9A3FAA0B2A1B6F2B009CF6BA = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 9A3FAA072A1B6F2B009CF6BA /* Build configuration list for PBXProject "MiniShopping" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A3FAA032A1B6F2B009CF6BA;
+			productRefGroup = 9A3FAA0D2A1B6F2B009CF6BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A3FAA0B2A1B6F2B009CF6BA /* MiniShopping */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A3FAA0A2A1B6F2B009CF6BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A3FAA1F2A1B6F2D009CF6BA /* LaunchScreen.storyboard in Resources */,
+				9A3FAA1C2A1B6F2D009CF6BA /* Assets.xcassets in Resources */,
+				9A3FAA1A2A1B6F2B009CF6BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A3FAA082A1B6F2B009CF6BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A56B3A12A1C838000E46BDD /* FetchProducts.m in Sources */,
+				9A3FAA342A1B944C009CF6BA /* Product.m in Sources */,
+				9A56B3B02A1CC60A00E46BDD /* ImageDownloader.m in Sources */,
+				9A3FAA172A1B6F2B009CF6BA /* ProductsViewController.m in Sources */,
+				9A3FAA2B2A1B712B009CF6BA /* ProductsView.m in Sources */,
+				9A3FAA112A1B6F2B009CF6BA /* AppDelegate.m in Sources */,
+				9A3FAA222A1B6F2D009CF6BA /* main.m in Sources */,
+				9A56B3AD2A1CBA5200E46BDD /* NSMutableArray+Sorting.m in Sources */,
+				9A3FAA142A1B6F2B009CF6BA /* SceneDelegate.m in Sources */,
+				9A3FAA302A1B7C24009CF6BA /* ProductCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9A3FAA182A1B6F2B009CF6BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A3FAA192A1B6F2B009CF6BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A3FAA1D2A1B6F2D009CF6BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A3FAA1E2A1B6F2D009CF6BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A3FAA232A1B6F2D009CF6BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9A3FAA242A1B6F2D009CF6BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A3FAA262A1B6F2D009CF6BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MiniShopping/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rajanpanchal.MiniShopping;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A3FAA272A1B6F2D009CF6BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MiniShopping/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rajanpanchal.MiniShopping;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A3FAA072A1B6F2B009CF6BA /* Build configuration list for PBXProject "MiniShopping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A3FAA232A1B6F2D009CF6BA /* Debug */,
+				9A3FAA242A1B6F2D009CF6BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A3FAA252A1B6F2D009CF6BA /* Build configuration list for PBXNativeTarget "MiniShopping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A3FAA262A1B6F2D009CF6BA /* Debug */,
+				9A3FAA272A1B6F2D009CF6BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A3FAA042A1B6F2B009CF6BA /* Project object */;
+}
